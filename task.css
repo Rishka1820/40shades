@@ -1,0 +1,85 @@
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; 
+  }
+  #heading{
+      font-family: fantasy;
+      font-size: 50px;
+      color: rgb(16, 124, 167);
+      text-align: center;
+  }
+.level{
+    color: aqua;
+    background-color: transparent;
+    margin: 5%;
+    border: transparent;
+    font-family: fantasy;
+    font-size: 200%;
+
+}
+#gameBoard{
+    display: grid;
+  
+}
+    
+#choose {
+    text-align-last: center;
+}
+.box{
+    background-color: #020715;
+    color: #3b96cc;
+    text-align: center;
+     font-size:200% ;
+     width: 3em;
+     border-radius: 10%;
+     align-items: center;
+     border: 2px solid gray;
+    
+   }
+
+
+#k{
+    text-align: center;
+    color: #23afc5;
+}
+@media screen and (max-width:440px){
+    .level{
+      margin:auto
+    }
+    #gameBoard{
+        width: 100%;
+    }
+  }
+  .box:hover{
+      background-color:rgba(131, 182, 240, 0.05);
+      
+  }
+  #k{
+      font-size: 500%;
+  }
+  #score{
+      color: rgb(88, 230, 218);
+      float: right;
+      font-family: fantasy;
+      font-size: xx-large;
+  }
+#pageleft{
+    position: fixed;
+    width: auto;
+    height:100%;
+    top:50px;
+}
+.ploption{
+    height:40px;
+    width:60px;
+    background: rgba(131, 182, 240, 0.2);
+    position: absolute;
+    left:0;
+    transition: width 0.3s ease;
+
+}
